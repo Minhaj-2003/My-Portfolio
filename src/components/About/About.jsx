@@ -18,7 +18,7 @@ const About = () => {
           </h1>
           {/* Name */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
-            Tarun Kaushik
+            Mohammad Minhaj Alam
           </h2>
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
@@ -26,8 +26,6 @@ const About = () => {
             <ReactTypingEffect
               text={[
                 'Fullstack Developer',
-                'App Developer',
-                'UI/UX Designer',
                 'Coder',
               ]}
               speed={100}
@@ -41,15 +39,16 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with over 2 years of experience in
-            building scalable web applications. Skilled in both front-end and
-            back-end development, I specialize in the MERN stack and other
-            modern technologies to create seamless user experiences and
-            efficient solutions.
+            I am a full-stack developer Ambitious and detail-oriented fresher with a passion for creating 
+            scalable and user-centric web applications. Highly skilled in JavaScript, Node.js, and React, 
+            with a solid understanding of database management using MongoDB and SQL. I have completed several 
+            personal and academic projects, including a real-time Weather check application and a AirBnb
+            application, which have honed my skills in both front-end design and back-end logic. Seeking an 
+            entry-level position to grow my expertise and contribute to innovative web projects.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1_pLl2wjYVCU-wnqXIhjhYr0YC0SJXvwv/view?usp=sharing"
+            href="https://mdminhajalam0071.hackerresume.io/c057b50d-7dc6-45d3-8a6d-081b4d8dbf5d"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -75,7 +74,7 @@ const About = () => {
           >
             <img
               src={profileImage}
-              alt="Tarun Kaushik"
+              alt="Md Minhaj Alam"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
           </Tilt>
